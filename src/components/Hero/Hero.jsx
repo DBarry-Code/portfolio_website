@@ -19,7 +19,7 @@ const Hero = () => (
                 Hier Text Rein schreiben wer man ist und was man so macht
             </SectionText>
             <Button onClick={() => (window.location = "https://google.com")}>
-                Mail und CO ?
+                My CV in German
             </Button>
         </LeftSection>
     </Section>
