@@ -10,6 +10,7 @@ import {
     Div3,
     NavLink,
     SocialIcons,
+    Span,
 } from "./HeaderStyles";
 
 const Header = () => (
@@ -21,9 +22,11 @@ const Header = () => (
                         display: "flex",
                         alignItems: "center",
                         color: "white",
+                        marginBottom: "20px",
                     }}
                 >
-                    <DiCssdeck size='3rem' /> <span>Portfoilo</span>
+                    <DiCssdeck size='3rem' />
+                    <Span>Barry</Span>
                 </a>
             </Link>
         </Div1>
@@ -45,13 +48,19 @@ const Header = () => (
             </li>
         </Div2>
         <Div3>
-            <SocialIcons href='https://github.com/DBarry-Code'>
+            <SocialIcons href='https://github.com/DBarry-Code' target='_blank'>
                 <AiFillGithub size='3rem' />
             </SocialIcons>
-            <SocialIcons href='https://www.linkedin.com/in/bartlomiej-dabrowski/'>
+            <SocialIcons
+                href='https://www.linkedin.com/in/bartlomiej-dabrowski/'
+                target='_blank'
+            >
                 <AiFillLinkedin size='3rem' />
             </SocialIcons>
-            <SocialIcons href='https://www.instagram.com/d_barry81/'>
+            <SocialIcons
+                href='https://www.instagram.com/d_barry81/'
+                target='_blank'
+            >
                 <AiFillInstagram size='3rem' />
             </SocialIcons>
         </Div3>
